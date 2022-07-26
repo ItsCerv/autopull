@@ -1,4 +1,4 @@
-setfpscap(30)
+setfpscap(10)
 game.Players.LocalPlayer.Idled:Connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true, "Caret", false, game)
     wait()
